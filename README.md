@@ -65,3 +65,10 @@ File structure:
   - Conversion rate to product page views (event: `product_page`).
   - Views of the product cart (event: `product_cart`).
   - Purchases (event: `purchase`).
+
+**Conclusion**
+The overall conclusion from the provided data and the analysis of the conducted A/B test is that the test was plagued with numerous errors that could distort the results and do not reflect the real situation. Users who participated in both tests were removed from the second test to avoid biases. After data filtering, there were 19,849 events and 3,050 users remaining. Data from the last week of the test may be distorted due to the New Year's promotion.
+
+The funnel analysis revealed that adding items to the cart may be an optional step. The conversion results showed that the test group performed worse. However, upon further analysis using the Bonferroni correction, the A/B test results were not statistically significant for the "product_cart" and "purchase" metrics, indicating no difference between groups A and B in these metrics.
+
+Thus, it can be concluded that the execution of this A/B test was flawed, and the results do not provide a basis for the conclusions made regarding the difference in conversion between the groups. To conduct a more accurate and reliable analysis, the errors should be addressed, and the test should be repeated.
